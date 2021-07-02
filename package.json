@@ -1,0 +1,21 @@
+{
+  "name": "back-smart-restaurant",
+  "version": "1.0.0",
+  "description": "\"Data base for app smart restaurant\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon index.js"
+  },
+  "author": "sebdev0421",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongoose": "^5.12.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.7"
+  }
+}
